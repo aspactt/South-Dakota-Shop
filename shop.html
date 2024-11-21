@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Roblox Roleplay Server Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .shop-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .item-card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .item-card:hover {
+            transform: scale(1.05);
+        }
+
+        .item-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .item-card h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .item-card p {
+            font-size: 1.2em;
+            color: #888;
+        }
+
+        .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 10px 0;
+        }
+
+        .button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Roblox Roleplay Server Shop</h1>
+        <p>Welcome to the official shop! Buy items, roles, and more for an enhanced roleplay experience!</p>
+    </header>
+
+    <div class="container">
+        <section class="shop-section">
+            <!-- Item 1 -->
+            <div class="item-card">
+                <img src="https://www.example.com/image1.jpg" alt="VIP Role">
+                <h2>VIP Role</h2>
+                <p>Unlock exclusive VIP areas and privileges in the game.</p>
+                <div class="price">100 Robux</div>
+                <a href="https://www.roblox.com" class="button">Buy Now</a>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="item-card">
+                <img src="https://www.example.com/image2.jpg" alt="Custom Outfit">
+                <h2>Custom Avatar Outfit</h2>
+                <p>Get a one-of-a-kind outfit designed for your character!</p>
+                <div class="price">150 Robux</div>
+                <a href="https://www.roblox.com" class="button">Buy Now</a>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="item-card">
+                <img src="https://www.example.com/image3.jpg" alt="Elite Badge">
+                <h2>Elite Member Badge</h2>
+                <p>Show off your status with a unique badge!</p>
+                <div class="price">50 Robux</div>
+                <a href="https://www.roblox.com" class="button">Buy Now</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Your Server Name]. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
